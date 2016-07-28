@@ -5,3 +5,4 @@ spec/*.js
 spec/*.map
 src/*.js
 src/*.map
+coverage/*
