@@ -14,6 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/jasmine": "^2.2.34",
     "concurrently": "^2.2.0",
     "jasmine-core": "^2.5.0",
     "karma": "^1.2.0",
@@ -25,10 +27,11 @@
     "karma-systemjs": "^0.14.0",
     "phantomjs": "^2.1.7",
     "phantomjs-prebuilt": "^2.1.12",
-    "typescript": "^1.8.10",
+    "typescript": "^2.0.3",
     "typings": "^0.8.1"
   },
   "dependencies": {
+    "core-js": "^2.4.1",
     "systemjs": "^0.19.38"
   }
 }

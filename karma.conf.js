@@ -27,8 +27,13 @@ module.exports = function(config) {
       configFile: 'system.conf.js',
 
       serveFiles: [
-        'src/**/*.js',
-        'node_modules/**/*.js'
+        'src/**/*.js'
+
+      ],
+      include: [
+        'node_modules/systemjs/dist/system.src.js',
+        'node_modules/systemjs/dist/system-polyfills.js',
+        'node_modules/core-js/client/core.js'
       ],
       config: {
         transpiler: null
