@@ -15,7 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'spec/*.js'
+      'spec/*.js',
+      'node_modules/core-js/client/core.js'
     ],
 
 
@@ -32,14 +33,13 @@ module.exports = function(config) {
       ],
       include: [
         'node_modules/systemjs/dist/system.src.js',
-        'node_modules/systemjs/dist/system-polyfills.js',
-        'node_modules/core-js/client/core.js'
+        'node_modules/systemjs/dist/system-polyfills.js'
       ],
       config: {
         transpiler: null
       }
     },
-    
+
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
